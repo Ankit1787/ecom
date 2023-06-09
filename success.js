@@ -1,0 +1,25 @@
+import React from "react";
+import "./success.scss";
+
+
+
+
+const success = () => {
+   
+
+    return (
+        
+            <div className="payment-success-page">
+              
+                <h1>Payment Successful!</h1>
+              <p>Thank you for your purchase.</p>
+               
+             
+            </div>
+          );
+        };
+            
+       
+
+
+export default success;
